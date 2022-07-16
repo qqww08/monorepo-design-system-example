@@ -22,13 +22,14 @@
 ![img.png](img.png)
 
 ### Github Registry Install
-- 설치 할려는 repo 에서 .npmrc 를 생성 해주세요
 ```bash
-npm install 
+👉 Using npm /root/.npmrc 
+
 @YOUR_USERNAME:registry=https://npm.pkg.github.com
 //npm.pkg.github.com/:_authToken=$GH_REGISTRY_TOKEN
 
-yarn berry 
+👉 Using yarn berry /root/.yarnrc.yml 
+
 npmScopes:
   "YOUR_USERNAME":
     npmAlwaysAuth: true
