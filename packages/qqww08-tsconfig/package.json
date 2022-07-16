@@ -1,8 +1,9 @@
 {
   "name": "@qqww08/tsconfig",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "license": "MIT",
   "main": "index.js",
+  "repository": "https://github.com/qqww08/monorepo-design-system-example",
   "files": [
     "base.json",
     "node16.json",

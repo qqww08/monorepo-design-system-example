@@ -39,7 +39,3 @@ jobs:
           publish: npm run release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Send a Slack notification if a publish happens
-        if: steps.changesets.outputs.published == 'true'
-        run: my-slack-bot send-notification --message "A new version of ${GITHUB_REPOSITORY} was published!"
