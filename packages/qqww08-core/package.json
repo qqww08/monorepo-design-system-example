@@ -1,6 +1,6 @@
 {
   "name": "@qqww08/core",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "repository": "https://github.com/qqww08/monorepo-design-system-example",

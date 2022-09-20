@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-qqww08",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "index.js",
   "license": "MIT",
   "repository": "https://github.com/qqww08/monorepo-design-system-example",
