@@ -21,7 +21,7 @@ jobs:
           node-version: 16.x
 
       - name: Install Dependencies
-        run: yarn install
+        run: npm install
 
       - name: Creating .npmrc
         run: |
@@ -36,6 +36,6 @@ jobs:
         id: changesets
         uses: changesets/action@v1
         with:
-          publish: yarn release
+          publish: npm run release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
